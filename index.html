@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Shopping Cart with Dynamic JS</title> 
+    <link rel="stylesheet" href="landingstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Menu --> 
+    <nav class="navbar">
+        <div class="logo">Artisan Bazaar</div>
+        <ul class="nav-links">
+            <li><a href="#about"> About</a></li> 
+            <li><a href="#products"> Products</a></li>
+            <li><a href="login.php"> Login</a></li> 
+            <li><a href="cart.php" id="cart-link">
+                    Cart <span id="cart-count"> (O)</span>
+                </a>
+            </li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div> 
+    </nav>
+    <!--Hero Section --> 
+    <section class="hero">
+        <div class="hero-content">
+            <h1 > where art is live</h1>
+            <p>"Crafted Wonders, Timeless Treasures."</p> 
+            <a href="#about" class="cta-button"> Start Shopping </a> 
+        </div> 
+    </section>
+<!-- About Section -->
+<section id="about" class="about"> 
+    <h2> Why Shop With Us?</h2>
+    <p>"Quality You Can Trust, Service You Deserve." </p>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="products">
+    <h2>Our Top Products </h2> 
+    <div class="product-grid">
+        <div class="product-card">
+             <img src="images/artwork painting.jpeg" alt="Product1">
+             <h3>artwork painting </h3> 
+             <p> &euro;200</p>
+            <button class="add-to-cart" data-product="Product 1"> Add to Cart</button >
+        </div>
+        <div class="product-card">
+             <img src="images/Handmade kites.jpg" alt="product2">
+              <h3>Handmade kites</h3>
+             <p>&euro;50 </p>
+            <button class="add-to-cart" data-product="product 2">Add to cart</button>
+        </div>
+        <div class="product-card">
+            <img src="images/handmade wall watch.jpeg" alt="product3">
+             <h4>Handmade wall watch</h4>
+            <p>&euro;300 </p>
+           <button class="add-to-cart" data-product="product 3">Add to cart</button>
+       </div>
+       <div class="product-card">
+             <img src="images/Hemis - Unique handmade Woven Hanging Pendant Light, NaturalBamboo.jpg" alt="product4">
+            <h5>Handmade Woven Hanging Pendant Bamboo Light</h5>
+            <p>&euro;600 </p>
+            <button class="add-to-cart" data-product="product 4">Add to cart</button>
+        </div>
+        <div class="product-card">
+            <img src="images/Hexagon Wooden Table Lamp, Handmade.jpeg" alt="product5">
+             <h6>Hexagon Wooden Table Lamp</h6>
+            <p>&euro;500 </p>
+           <button class="add-to-cart" data-product="product 5">Add to cart</button>
+       </div>
+        <div class="product-card">
+            <img src="images/Large Acrylic Painting, Living Room Wall Art Painting.jpg" alt="product6">
+             <h7>Living Room Wall Art Painting</h7>
+            <p>&euro;200 </p>
+           <button class="add-to-cart" data-product="product 6">Add to cart</button>
+       </div>
+       <div class="product-card">
+            <img src="images/peacock feather Painting.jpeg" alt="product7">
+            <h8>Peacock feather Painting</h8>
+            <p>&euro;800</p>
+           <button class="add-to-cart" data-product="product 7">Add to cart</button>
+        </div>
+        <div class="product-card">
+            <img src="images/Wall-mounted Decorative Art.webp" alt="product8">
+            <h9>Wall-mounted Decorative Art</h9>
+            <p>&euro;900</p>
+           <button class="add-to-cart" data-product="product 8">Add to cart</button>
+        </div>
+        <div class="product-card">
+            <img src="images/wooden elephant Artwork.jpeg" alt="product9">
+            <h10> Wooden elephant</h10>
+            <p>&euro;50</p>
+           <button class="add-to-cart" data-product="product 9">Add to cart</button>
+        </div>
+        <div class="product-card">
+            <img src="images/ying yang piecehandmade home decore.jpeg" alt="product10">
+            <h11> ying yang piece, home decore</h11>
+            <p>&euro;1100</p>
+           <button class="add-to-cart" data-product="product10">Add to cart</button>
+        </div>
+    </div>  
+</section>
+
+<!--Footer-->
+<footer>
+        <p>&copy;2025 Artisan Bazaar. All rights reserved.</p>
+</footer>
+
+<script src="jscript.js"></script>
+</body>
+
+
+</html>
