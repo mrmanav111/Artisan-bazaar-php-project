@@ -1,7 +1,3 @@
-# Artisan-bazaar-php-project
-Full-stack PHP e-commerce project featuring artisan product management, secure shopping cart functionality, responsive UI, checkout workflow, and MySQL backend integration.
-
-
 # Artisan Bazaar PHP Project
 
 Artisan Bazaar is a PHP and MySQL based e-commerce web application designed for selling handmade and artisan products online. The project includes user registration, login, product browsing, shopping cart functionality, checkout process, admin dashboard, and database integration.
